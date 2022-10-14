@@ -1,0 +1,57 @@
+*,
+*::before,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.data {
+  height: auto;
+  min-height: 100vh;
+  background-color: black;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.data__items {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr repeat(2, 1fr)
+}
+
+.item {
+  border: 10px solid gold;
+  height: fit-content;
+  text-align: center;
+  color: white;
+}
+
+hr {
+  height: 10px;
+  background-color: gold;
+}
+
+.post-text {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.hr-second {
+  height: 5px;
+}
